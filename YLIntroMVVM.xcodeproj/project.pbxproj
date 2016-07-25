@@ -15,6 +15,9 @@
 		A9357C2F1D45BC3F00CF13E3 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A9357C2D1D45BC3F00CF13E3 /* LaunchScreen.storyboard */; };
 		A9357C3A1D45BC3F00CF13E3 /* YLIntroMVVMTests.m in Sources */ = {isa = PBXBuildFile; fileRef = A9357C391D45BC3F00CF13E3 /* YLIntroMVVMTests.m */; };
 		A9357C451D45BC3F00CF13E3 /* YLIntroMVVMUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = A9357C441D45BC3F00CF13E3 /* YLIntroMVVMUITests.m */; };
+		A9357C551D45BE0400CF13E3 /* Person.m in Sources */ = {isa = PBXBuildFile; fileRef = A9357C541D45BE0400CF13E3 /* Person.m */; };
+		A9357C581D45BE3700CF13E3 /* PersonViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A9357C571D45BE3700CF13E3 /* PersonViewController.m */; };
+		A9357C5B1D45EC4A00CF13E3 /* PersonViewModel.m in Sources */ = {isa = PBXBuildFile; fileRef = A9357C5A1D45EC4A00CF13E3 /* PersonViewModel.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +54,12 @@
 		A9357C401D45BC3F00CF13E3 /* YLIntroMVVMUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = YLIntroMVVMUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		A9357C441D45BC3F00CF13E3 /* YLIntroMVVMUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = YLIntroMVVMUITests.m; sourceTree = "<group>"; };
 		A9357C461D45BC3F00CF13E3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A9357C531D45BE0400CF13E3 /* Person.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Person.h; sourceTree = "<group>"; };
+		A9357C541D45BE0400CF13E3 /* Person.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Person.m; sourceTree = "<group>"; };
+		A9357C561D45BE3700CF13E3 /* PersonViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PersonViewController.h; sourceTree = "<group>"; };
+		A9357C571D45BE3700CF13E3 /* PersonViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PersonViewController.m; sourceTree = "<group>"; };
+		A9357C591D45EC4A00CF13E3 /* PersonViewModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PersonViewModel.h; sourceTree = "<group>"; };
+		A9357C5A1D45EC4A00CF13E3 /* PersonViewModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PersonViewModel.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -101,6 +110,7 @@
 		A9357C1E1D45BC3F00CF13E3 /* YLIntroMVVM */ = {
 			isa = PBXGroup;
 			children = (
+				A9357C521D45BDFB00CF13E3 /* IntroMVVM */,
 				A9357C221D45BC3F00CF13E3 /* AppDelegate.h */,
 				A9357C231D45BC3F00CF13E3 /* AppDelegate.m */,
 				A9357C251D45BC3F00CF13E3 /* ViewController.h */,
@@ -138,6 +148,19 @@
 				A9357C461D45BC3F00CF13E3 /* Info.plist */,
 			);
 			path = YLIntroMVVMUITests;
+			sourceTree = "<group>";
+		};
+		A9357C521D45BDFB00CF13E3 /* IntroMVVM */ = {
+			isa = PBXGroup;
+			children = (
+				A9357C531D45BE0400CF13E3 /* Person.h */,
+				A9357C541D45BE0400CF13E3 /* Person.m */,
+				A9357C561D45BE3700CF13E3 /* PersonViewController.h */,
+				A9357C571D45BE3700CF13E3 /* PersonViewController.m */,
+				A9357C591D45EC4A00CF13E3 /* PersonViewModel.h */,
+				A9357C5A1D45EC4A00CF13E3 /* PersonViewModel.m */,
+			);
+			path = IntroMVVM;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -273,8 +296,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A9357C581D45BE3700CF13E3 /* PersonViewController.m in Sources */,
+				A9357C5B1D45EC4A00CF13E3 /* PersonViewModel.m in Sources */,
 				A9357C271D45BC3F00CF13E3 /* ViewController.m in Sources */,
 				A9357C241D45BC3F00CF13E3 /* AppDelegate.m in Sources */,
+				A9357C551D45BE0400CF13E3 /* Person.m in Sources */,
 				A9357C211D45BC3F00CF13E3 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
