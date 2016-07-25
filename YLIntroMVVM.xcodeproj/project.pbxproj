@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		2BBDC2DDEF7A0737E4F00996 /* libPods-YLIntroMVVMUITests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = DF7CB1C7956649ACC49B7479 /* libPods-YLIntroMVVMUITests.a */; };
+		4A74662E04F91EEECE92A801 /* libPods-YLIntroMVVM.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 74434B52FB258530E32A5547 /* libPods-YLIntroMVVM.a */; };
 		A9357C211D45BC3F00CF13E3 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = A9357C201D45BC3F00CF13E3 /* main.m */; };
 		A9357C241D45BC3F00CF13E3 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = A9357C231D45BC3F00CF13E3 /* AppDelegate.m */; };
 		A9357C271D45BC3F00CF13E3 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A9357C261D45BC3F00CF13E3 /* ViewController.m */; };
@@ -18,6 +20,10 @@
 		A9357C551D45BE0400CF13E3 /* Person.m in Sources */ = {isa = PBXBuildFile; fileRef = A9357C541D45BE0400CF13E3 /* Person.m */; };
 		A9357C581D45BE3700CF13E3 /* PersonViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A9357C571D45BE3700CF13E3 /* PersonViewController.m */; };
 		A9357C5B1D45EC4A00CF13E3 /* PersonViewModel.m in Sources */ = {isa = PBXBuildFile; fileRef = A9357C5A1D45EC4A00CF13E3 /* PersonViewModel.m */; };
+		A9357C5F1D45FD9F00CF13E3 /* User.m in Sources */ = {isa = PBXBuildFile; fileRef = A9357C5E1D45FD9F00CF13E3 /* User.m */; };
+		A9357C621D45FE2700CF13E3 /* UserViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A9357C611D45FE2700CF13E3 /* UserViewController.m */; };
+		A9357C651D45FE9600CF13E3 /* UserViewModel.m in Sources */ = {isa = PBXBuildFile; fileRef = A9357C641D45FE9600CF13E3 /* UserViewModel.m */; };
+		E5527B13A425D3B142AEFAE2 /* libPods-YLIntroMVVMTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 071D959C272B13A106A4EB1D /* libPods-YLIntroMVVMTests.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -38,6 +44,11 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		071D959C272B13A106A4EB1D /* libPods-YLIntroMVVMTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-YLIntroMVVMTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		23686F6C2A4ED9F2BD618181 /* Pods-YLIntroMVVM.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-YLIntroMVVM.debug.xcconfig"; path = "Pods/Target Support Files/Pods-YLIntroMVVM/Pods-YLIntroMVVM.debug.xcconfig"; sourceTree = "<group>"; };
+		74434B52FB258530E32A5547 /* libPods-YLIntroMVVM.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-YLIntroMVVM.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		7480D24CBBC5433D9432AF43 /* Pods-YLIntroMVVMTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-YLIntroMVVMTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-YLIntroMVVMTests/Pods-YLIntroMVVMTests.release.xcconfig"; sourceTree = "<group>"; };
+		8FA7D951F6C445A0A6CF04DA /* Pods-YLIntroMVVMTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-YLIntroMVVMTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-YLIntroMVVMTests/Pods-YLIntroMVVMTests.debug.xcconfig"; sourceTree = "<group>"; };
 		A9357C1C1D45BC3F00CF13E3 /* YLIntroMVVM.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = YLIntroMVVM.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		A9357C201D45BC3F00CF13E3 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		A9357C221D45BC3F00CF13E3 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -60,6 +71,16 @@
 		A9357C571D45BE3700CF13E3 /* PersonViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PersonViewController.m; sourceTree = "<group>"; };
 		A9357C591D45EC4A00CF13E3 /* PersonViewModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PersonViewModel.h; sourceTree = "<group>"; };
 		A9357C5A1D45EC4A00CF13E3 /* PersonViewModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PersonViewModel.m; sourceTree = "<group>"; };
+		A9357C5D1D45FD9F00CF13E3 /* User.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = User.h; sourceTree = "<group>"; };
+		A9357C5E1D45FD9F00CF13E3 /* User.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = User.m; sourceTree = "<group>"; };
+		A9357C601D45FE2700CF13E3 /* UserViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UserViewController.h; sourceTree = "<group>"; };
+		A9357C611D45FE2700CF13E3 /* UserViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UserViewController.m; sourceTree = "<group>"; };
+		A9357C631D45FE9600CF13E3 /* UserViewModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UserViewModel.h; sourceTree = "<group>"; };
+		A9357C641D45FE9600CF13E3 /* UserViewModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UserViewModel.m; sourceTree = "<group>"; };
+		D8300A470A77409732BC535A /* Pods-YLIntroMVVMUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-YLIntroMVVMUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-YLIntroMVVMUITests/Pods-YLIntroMVVMUITests.release.xcconfig"; sourceTree = "<group>"; };
+		DF7CB1C7956649ACC49B7479 /* libPods-YLIntroMVVMUITests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-YLIntroMVVMUITests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		E037E4C82C3192CB378A4A42 /* Pods-YLIntroMVVMUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-YLIntroMVVMUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-YLIntroMVVMUITests/Pods-YLIntroMVVMUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		F81E071BA3DDC1293F23DEBE /* Pods-YLIntroMVVM.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-YLIntroMVVM.release.xcconfig"; path = "Pods/Target Support Files/Pods-YLIntroMVVM/Pods-YLIntroMVVM.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -67,6 +88,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4A74662E04F91EEECE92A801 /* libPods-YLIntroMVVM.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -74,6 +96,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E5527B13A425D3B142AEFAE2 /* libPods-YLIntroMVVMTests.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -81,12 +104,36 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2BBDC2DDEF7A0737E4F00996 /* libPods-YLIntroMVVMUITests.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		298A099C2C7CD217EDE107DC /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				74434B52FB258530E32A5547 /* libPods-YLIntroMVVM.a */,
+				071D959C272B13A106A4EB1D /* libPods-YLIntroMVVMTests.a */,
+				DF7CB1C7956649ACC49B7479 /* libPods-YLIntroMVVMUITests.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		77913B123CFE8AF2BD30743C /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				23686F6C2A4ED9F2BD618181 /* Pods-YLIntroMVVM.debug.xcconfig */,
+				F81E071BA3DDC1293F23DEBE /* Pods-YLIntroMVVM.release.xcconfig */,
+				8FA7D951F6C445A0A6CF04DA /* Pods-YLIntroMVVMTests.debug.xcconfig */,
+				7480D24CBBC5433D9432AF43 /* Pods-YLIntroMVVMTests.release.xcconfig */,
+				E037E4C82C3192CB378A4A42 /* Pods-YLIntroMVVMUITests.debug.xcconfig */,
+				D8300A470A77409732BC535A /* Pods-YLIntroMVVMUITests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 		A9357C131D45BC3F00CF13E3 = {
 			isa = PBXGroup;
 			children = (
@@ -94,6 +141,8 @@
 				A9357C381D45BC3F00CF13E3 /* YLIntroMVVMTests */,
 				A9357C431D45BC3F00CF13E3 /* YLIntroMVVMUITests */,
 				A9357C1D1D45BC3F00CF13E3 /* Products */,
+				77913B123CFE8AF2BD30743C /* Pods */,
+				298A099C2C7CD217EDE107DC /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -110,6 +159,7 @@
 		A9357C1E1D45BC3F00CF13E3 /* YLIntroMVVM */ = {
 			isa = PBXGroup;
 			children = (
+				A9357C5C1D45FC9000CF13E3 /* RACMVVM */,
 				A9357C521D45BDFB00CF13E3 /* IntroMVVM */,
 				A9357C221D45BC3F00CF13E3 /* AppDelegate.h */,
 				A9357C231D45BC3F00CF13E3 /* AppDelegate.m */,
@@ -163,6 +213,19 @@
 			path = IntroMVVM;
 			sourceTree = "<group>";
 		};
+		A9357C5C1D45FC9000CF13E3 /* RACMVVM */ = {
+			isa = PBXGroup;
+			children = (
+				A9357C5D1D45FD9F00CF13E3 /* User.h */,
+				A9357C5E1D45FD9F00CF13E3 /* User.m */,
+				A9357C631D45FE9600CF13E3 /* UserViewModel.h */,
+				A9357C641D45FE9600CF13E3 /* UserViewModel.m */,
+				A9357C601D45FE2700CF13E3 /* UserViewController.h */,
+				A9357C611D45FE2700CF13E3 /* UserViewController.m */,
+			);
+			path = RACMVVM;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -170,9 +233,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = A9357C491D45BC3F00CF13E3 /* Build configuration list for PBXNativeTarget "YLIntroMVVM" */;
 			buildPhases = (
+				D534154761005AA3C83FCD57 /* [CP] Check Pods Manifest.lock */,
 				A9357C181D45BC3F00CF13E3 /* Sources */,
 				A9357C191D45BC3F00CF13E3 /* Frameworks */,
 				A9357C1A1D45BC3F00CF13E3 /* Resources */,
+				2B0FADC6FFCC15EDF28AA174 /* [CP] Embed Pods Frameworks */,
+				DAF151A7F2F3C8600FE46DE2 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -187,9 +253,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = A9357C4C1D45BC3F00CF13E3 /* Build configuration list for PBXNativeTarget "YLIntroMVVMTests" */;
 			buildPhases = (
+				E068C7F851A6C79D57838FC8 /* [CP] Check Pods Manifest.lock */,
 				A9357C311D45BC3F00CF13E3 /* Sources */,
 				A9357C321D45BC3F00CF13E3 /* Frameworks */,
 				A9357C331D45BC3F00CF13E3 /* Resources */,
+				96CA300A80F2E36E08EF0F9A /* [CP] Embed Pods Frameworks */,
+				415920B9A49FA187D0FD7210 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -205,9 +274,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = A9357C4F1D45BC3F00CF13E3 /* Build configuration list for PBXNativeTarget "YLIntroMVVMUITests" */;
 			buildPhases = (
+				4C3884807BACD8EEF65E1685 /* [CP] Check Pods Manifest.lock */,
 				A9357C3C1D45BC3F00CF13E3 /* Sources */,
 				A9357C3D1D45BC3F00CF13E3 /* Frameworks */,
 				A9357C3E1D45BC3F00CF13E3 /* Resources */,
+				076C17C73D3AB1EA83E3CE4E /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -291,15 +362,141 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		076C17C73D3AB1EA83E3CE4E /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-YLIntroMVVMUITests/Pods-YLIntroMVVMUITests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		2B0FADC6FFCC15EDF28AA174 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-YLIntroMVVM/Pods-YLIntroMVVM-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		415920B9A49FA187D0FD7210 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-YLIntroMVVMTests/Pods-YLIntroMVVMTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		4C3884807BACD8EEF65E1685 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		96CA300A80F2E36E08EF0F9A /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-YLIntroMVVMTests/Pods-YLIntroMVVMTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		D534154761005AA3C83FCD57 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		DAF151A7F2F3C8600FE46DE2 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-YLIntroMVVM/Pods-YLIntroMVVM-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		E068C7F851A6C79D57838FC8 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		A9357C181D45BC3F00CF13E3 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 				A9357C581D45BE3700CF13E3 /* PersonViewController.m in Sources */,
+				A9357C5F1D45FD9F00CF13E3 /* User.m in Sources */,
+				A9357C651D45FE9600CF13E3 /* UserViewModel.m in Sources */,
 				A9357C5B1D45EC4A00CF13E3 /* PersonViewModel.m in Sources */,
 				A9357C271D45BC3F00CF13E3 /* ViewController.m in Sources */,
 				A9357C241D45BC3F00CF13E3 /* AppDelegate.m in Sources */,
+				A9357C621D45FE2700CF13E3 /* UserViewController.m in Sources */,
 				A9357C551D45BE0400CF13E3 /* Person.m in Sources */,
 				A9357C211D45BC3F00CF13E3 /* main.m in Sources */,
 			);
@@ -440,6 +637,7 @@
 		};
 		A9357C4A1D45BC3F00CF13E3 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 23686F6C2A4ED9F2BD618181 /* Pods-YLIntroMVVM.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = YLIntroMVVM/Info.plist;
@@ -451,6 +649,7 @@
 		};
 		A9357C4B1D45BC3F00CF13E3 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = F81E071BA3DDC1293F23DEBE /* Pods-YLIntroMVVM.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = YLIntroMVVM/Info.plist;
@@ -462,6 +661,7 @@
 		};
 		A9357C4D1D45BC3F00CF13E3 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8FA7D951F6C445A0A6CF04DA /* Pods-YLIntroMVVMTests.debug.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				INFOPLIST_FILE = YLIntroMVVMTests/Info.plist;
@@ -474,6 +674,7 @@
 		};
 		A9357C4E1D45BC3F00CF13E3 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7480D24CBBC5433D9432AF43 /* Pods-YLIntroMVVMTests.release.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				INFOPLIST_FILE = YLIntroMVVMTests/Info.plist;
@@ -486,6 +687,7 @@
 		};
 		A9357C501D45BC3F00CF13E3 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = E037E4C82C3192CB378A4A42 /* Pods-YLIntroMVVMUITests.debug.xcconfig */;
 			buildSettings = {
 				INFOPLIST_FILE = YLIntroMVVMUITests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
@@ -497,6 +699,7 @@
 		};
 		A9357C511D45BC3F00CF13E3 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = D8300A470A77409732BC535A /* Pods-YLIntroMVVMUITests.release.xcconfig */;
 			buildSettings = {
 				INFOPLIST_FILE = YLIntroMVVMUITests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
@@ -525,6 +728,7 @@
 				A9357C4B1D45BC3F00CF13E3 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		A9357C4C1D45BC3F00CF13E3 /* Build configuration list for PBXNativeTarget "YLIntroMVVMTests" */ = {
 			isa = XCConfigurationList;
@@ -533,6 +737,7 @@
 				A9357C4E1D45BC3F00CF13E3 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		A9357C4F1D45BC3F00CF13E3 /* Build configuration list for PBXNativeTarget "YLIntroMVVMUITests" */ = {
 			isa = XCConfigurationList;
@@ -541,6 +746,7 @@
 				A9357C511D45BC3F00CF13E3 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
