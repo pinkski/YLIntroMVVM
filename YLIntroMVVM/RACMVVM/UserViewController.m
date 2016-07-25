@@ -36,11 +36,20 @@
     [super viewDidLoad];
     
     [self setupView];
+    
+    [self setupBinding];
 }
 
 #pragma mark - View
 
 - (void)setupView {
+    
+    self.title = @"我的标题";
+}
+
+#pragma mark - Binding
+
+- (void)setupBinding {
     
     // label
     RAC(self.nameLabel, text) = RACObserve(self.viewModel, nameText);
@@ -60,8 +69,29 @@
         self.viewModel.nameText = x;
     }];
     
-    // button
+    [self.viewModel.textIsValidSignal subscribeNext:^(NSString *name) {
+       
+        @strongify(self);
+        UIAlertView *alert = [[UIAlertView alloc] initWithTitle:@"Forbidden Name!"
+                                                        message:[NSString stringWithFormat:@"The name %@ has been forbidden!",name]
+                                                       delegate:nil
+                                              cancelButtonTitle:@"Ok"
+                                              otherButtonTitles:nil];
+        [alert show];
+        self.viewModel.nameText = @"";
+    }];
     
+    // button
+    RAC(self.firstButton, enabled) = self.viewModel.buttonIsValidSignal;
+    
+    [self.firstButton addTarget:self.viewModel action:@selector(buttonAction:) forControlEvents:UIControlEventTouchUpInside];
+    
+    [[[[self.firstButton rac_signalForControlEvents:UIControlEventTouchUpInside]
+       skip:0] take:1] subscribeNext:^(id x) {
+        @strongify(self);
+        self.firstTextField.enabled = NO;
+        self.nameLabel.hidden = YES;
+    }];
     
     // stepper
     

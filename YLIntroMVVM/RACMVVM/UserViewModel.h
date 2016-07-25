@@ -8,6 +8,7 @@
 
 #import <Foundation/Foundation.h>
 #import "User.h"
+#import <ReactiveCocoa/ReactiveCocoa.h>
 
 @interface UserViewModel : NSObject
 
@@ -15,5 +16,11 @@
 @property (nonatomic, copy) NSString *sexText;
 @property (nonatomic, copy) NSString *ageText;
 @property (nonatomic, copy) NSString *moneyText;
+
+- (RACSignal *)buttonIsValidSignal;
+
+- (RACSignal *)textIsValidSignal;
+
+- (IBAction)buttonAction:(id)sender; 
 
 @end
