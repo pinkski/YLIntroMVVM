@@ -1,0 +1,522 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		A9357C211D45BC3F00CF13E3 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = A9357C201D45BC3F00CF13E3 /* main.m */; };
+		A9357C241D45BC3F00CF13E3 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = A9357C231D45BC3F00CF13E3 /* AppDelegate.m */; };
+		A9357C271D45BC3F00CF13E3 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A9357C261D45BC3F00CF13E3 /* ViewController.m */; };
+		A9357C2A1D45BC3F00CF13E3 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A9357C281D45BC3F00CF13E3 /* Main.storyboard */; };
+		A9357C2C1D45BC3F00CF13E3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A9357C2B1D45BC3F00CF13E3 /* Assets.xcassets */; };
+		A9357C2F1D45BC3F00CF13E3 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A9357C2D1D45BC3F00CF13E3 /* LaunchScreen.storyboard */; };
+		A9357C3A1D45BC3F00CF13E3 /* YLIntroMVVMTests.m in Sources */ = {isa = PBXBuildFile; fileRef = A9357C391D45BC3F00CF13E3 /* YLIntroMVVMTests.m */; };
+		A9357C451D45BC3F00CF13E3 /* YLIntroMVVMUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = A9357C441D45BC3F00CF13E3 /* YLIntroMVVMUITests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		A9357C361D45BC3F00CF13E3 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A9357C141D45BC3F00CF13E3 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A9357C1B1D45BC3F00CF13E3;
+			remoteInfo = YLIntroMVVM;
+		};
+		A9357C411D45BC3F00CF13E3 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A9357C141D45BC3F00CF13E3 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A9357C1B1D45BC3F00CF13E3;
+			remoteInfo = YLIntroMVVM;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		A9357C1C1D45BC3F00CF13E3 /* YLIntroMVVM.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = YLIntroMVVM.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		A9357C201D45BC3F00CF13E3 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		A9357C221D45BC3F00CF13E3 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		A9357C231D45BC3F00CF13E3 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		A9357C251D45BC3F00CF13E3 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		A9357C261D45BC3F00CF13E3 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		A9357C291D45BC3F00CF13E3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		A9357C2B1D45BC3F00CF13E3 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		A9357C2E1D45BC3F00CF13E3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		A9357C301D45BC3F00CF13E3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A9357C351D45BC3F00CF13E3 /* YLIntroMVVMTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = YLIntroMVVMTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		A9357C391D45BC3F00CF13E3 /* YLIntroMVVMTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = YLIntroMVVMTests.m; sourceTree = "<group>"; };
+		A9357C3B1D45BC3F00CF13E3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A9357C401D45BC3F00CF13E3 /* YLIntroMVVMUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = YLIntroMVVMUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		A9357C441D45BC3F00CF13E3 /* YLIntroMVVMUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = YLIntroMVVMUITests.m; sourceTree = "<group>"; };
+		A9357C461D45BC3F00CF13E3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		A9357C191D45BC3F00CF13E3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A9357C321D45BC3F00CF13E3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A9357C3D1D45BC3F00CF13E3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		A9357C131D45BC3F00CF13E3 = {
+			isa = PBXGroup;
+			children = (
+				A9357C1E1D45BC3F00CF13E3 /* YLIntroMVVM */,
+				A9357C381D45BC3F00CF13E3 /* YLIntroMVVMTests */,
+				A9357C431D45BC3F00CF13E3 /* YLIntroMVVMUITests */,
+				A9357C1D1D45BC3F00CF13E3 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		A9357C1D1D45BC3F00CF13E3 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A9357C1C1D45BC3F00CF13E3 /* YLIntroMVVM.app */,
+				A9357C351D45BC3F00CF13E3 /* YLIntroMVVMTests.xctest */,
+				A9357C401D45BC3F00CF13E3 /* YLIntroMVVMUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		A9357C1E1D45BC3F00CF13E3 /* YLIntroMVVM */ = {
+			isa = PBXGroup;
+			children = (
+				A9357C221D45BC3F00CF13E3 /* AppDelegate.h */,
+				A9357C231D45BC3F00CF13E3 /* AppDelegate.m */,
+				A9357C251D45BC3F00CF13E3 /* ViewController.h */,
+				A9357C261D45BC3F00CF13E3 /* ViewController.m */,
+				A9357C281D45BC3F00CF13E3 /* Main.storyboard */,
+				A9357C2B1D45BC3F00CF13E3 /* Assets.xcassets */,
+				A9357C2D1D45BC3F00CF13E3 /* LaunchScreen.storyboard */,
+				A9357C301D45BC3F00CF13E3 /* Info.plist */,
+				A9357C1F1D45BC3F00CF13E3 /* Supporting Files */,
+			);
+			path = YLIntroMVVM;
+			sourceTree = "<group>";
+		};
+		A9357C1F1D45BC3F00CF13E3 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				A9357C201D45BC3F00CF13E3 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		A9357C381D45BC3F00CF13E3 /* YLIntroMVVMTests */ = {
+			isa = PBXGroup;
+			children = (
+				A9357C391D45BC3F00CF13E3 /* YLIntroMVVMTests.m */,
+				A9357C3B1D45BC3F00CF13E3 /* Info.plist */,
+			);
+			path = YLIntroMVVMTests;
+			sourceTree = "<group>";
+		};
+		A9357C431D45BC3F00CF13E3 /* YLIntroMVVMUITests */ = {
+			isa = PBXGroup;
+			children = (
+				A9357C441D45BC3F00CF13E3 /* YLIntroMVVMUITests.m */,
+				A9357C461D45BC3F00CF13E3 /* Info.plist */,
+			);
+			path = YLIntroMVVMUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		A9357C1B1D45BC3F00CF13E3 /* YLIntroMVVM */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A9357C491D45BC3F00CF13E3 /* Build configuration list for PBXNativeTarget "YLIntroMVVM" */;
+			buildPhases = (
+				A9357C181D45BC3F00CF13E3 /* Sources */,
+				A9357C191D45BC3F00CF13E3 /* Frameworks */,
+				A9357C1A1D45BC3F00CF13E3 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = YLIntroMVVM;
+			productName = YLIntroMVVM;
+			productReference = A9357C1C1D45BC3F00CF13E3 /* YLIntroMVVM.app */;
+			productType = "com.apple.product-type.application";
+		};
+		A9357C341D45BC3F00CF13E3 /* YLIntroMVVMTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A9357C4C1D45BC3F00CF13E3 /* Build configuration list for PBXNativeTarget "YLIntroMVVMTests" */;
+			buildPhases = (
+				A9357C311D45BC3F00CF13E3 /* Sources */,
+				A9357C321D45BC3F00CF13E3 /* Frameworks */,
+				A9357C331D45BC3F00CF13E3 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A9357C371D45BC3F00CF13E3 /* PBXTargetDependency */,
+			);
+			name = YLIntroMVVMTests;
+			productName = YLIntroMVVMTests;
+			productReference = A9357C351D45BC3F00CF13E3 /* YLIntroMVVMTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		A9357C3F1D45BC3F00CF13E3 /* YLIntroMVVMUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A9357C4F1D45BC3F00CF13E3 /* Build configuration list for PBXNativeTarget "YLIntroMVVMUITests" */;
+			buildPhases = (
+				A9357C3C1D45BC3F00CF13E3 /* Sources */,
+				A9357C3D1D45BC3F00CF13E3 /* Frameworks */,
+				A9357C3E1D45BC3F00CF13E3 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A9357C421D45BC3F00CF13E3 /* PBXTargetDependency */,
+			);
+			name = YLIntroMVVMUITests;
+			productName = YLIntroMVVMUITests;
+			productReference = A9357C401D45BC3F00CF13E3 /* YLIntroMVVMUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		A9357C141D45BC3F00CF13E3 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = ThinkMobile;
+				TargetAttributes = {
+					A9357C1B1D45BC3F00CF13E3 = {
+						CreatedOnToolsVersion = 7.3;
+						DevelopmentTeam = SB497H4PU6;
+					};
+					A9357C341D45BC3F00CF13E3 = {
+						CreatedOnToolsVersion = 7.3;
+						DevelopmentTeam = SB497H4PU6;
+						TestTargetID = A9357C1B1D45BC3F00CF13E3;
+					};
+					A9357C3F1D45BC3F00CF13E3 = {
+						CreatedOnToolsVersion = 7.3;
+						DevelopmentTeam = SB497H4PU6;
+						TestTargetID = A9357C1B1D45BC3F00CF13E3;
+					};
+				};
+			};
+			buildConfigurationList = A9357C171D45BC3F00CF13E3 /* Build configuration list for PBXProject "YLIntroMVVM" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = A9357C131D45BC3F00CF13E3;
+			productRefGroup = A9357C1D1D45BC3F00CF13E3 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				A9357C1B1D45BC3F00CF13E3 /* YLIntroMVVM */,
+				A9357C341D45BC3F00CF13E3 /* YLIntroMVVMTests */,
+				A9357C3F1D45BC3F00CF13E3 /* YLIntroMVVMUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		A9357C1A1D45BC3F00CF13E3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A9357C2F1D45BC3F00CF13E3 /* LaunchScreen.storyboard in Resources */,
+				A9357C2C1D45BC3F00CF13E3 /* Assets.xcassets in Resources */,
+				A9357C2A1D45BC3F00CF13E3 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A9357C331D45BC3F00CF13E3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A9357C3E1D45BC3F00CF13E3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		A9357C181D45BC3F00CF13E3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A9357C271D45BC3F00CF13E3 /* ViewController.m in Sources */,
+				A9357C241D45BC3F00CF13E3 /* AppDelegate.m in Sources */,
+				A9357C211D45BC3F00CF13E3 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A9357C311D45BC3F00CF13E3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A9357C3A1D45BC3F00CF13E3 /* YLIntroMVVMTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A9357C3C1D45BC3F00CF13E3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A9357C451D45BC3F00CF13E3 /* YLIntroMVVMUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		A9357C371D45BC3F00CF13E3 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A9357C1B1D45BC3F00CF13E3 /* YLIntroMVVM */;
+			targetProxy = A9357C361D45BC3F00CF13E3 /* PBXContainerItemProxy */;
+		};
+		A9357C421D45BC3F00CF13E3 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A9357C1B1D45BC3F00CF13E3 /* YLIntroMVVM */;
+			targetProxy = A9357C411D45BC3F00CF13E3 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		A9357C281D45BC3F00CF13E3 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A9357C291D45BC3F00CF13E3 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		A9357C2D1D45BC3F00CF13E3 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A9357C2E1D45BC3F00CF13E3 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		A9357C471D45BC3F00CF13E3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		A9357C481D45BC3F00CF13E3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		A9357C4A1D45BC3F00CF13E3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = YLIntroMVVM/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.ThinkMobile.YLIntroMVVM;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		A9357C4B1D45BC3F00CF13E3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = YLIntroMVVM/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.ThinkMobile.YLIntroMVVM;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		A9357C4D1D45BC3F00CF13E3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = YLIntroMVVMTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.ThinkMobile.YLIntroMVVMTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/YLIntroMVVM.app/YLIntroMVVM";
+			};
+			name = Debug;
+		};
+		A9357C4E1D45BC3F00CF13E3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = YLIntroMVVMTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.ThinkMobile.YLIntroMVVMTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/YLIntroMVVM.app/YLIntroMVVM";
+			};
+			name = Release;
+		};
+		A9357C501D45BC3F00CF13E3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = YLIntroMVVMUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.ThinkMobile.YLIntroMVVMUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = YLIntroMVVM;
+			};
+			name = Debug;
+		};
+		A9357C511D45BC3F00CF13E3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = YLIntroMVVMUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.ThinkMobile.YLIntroMVVMUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = YLIntroMVVM;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		A9357C171D45BC3F00CF13E3 /* Build configuration list for PBXProject "YLIntroMVVM" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A9357C471D45BC3F00CF13E3 /* Debug */,
+				A9357C481D45BC3F00CF13E3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A9357C491D45BC3F00CF13E3 /* Build configuration list for PBXNativeTarget "YLIntroMVVM" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A9357C4A1D45BC3F00CF13E3 /* Debug */,
+				A9357C4B1D45BC3F00CF13E3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		A9357C4C1D45BC3F00CF13E3 /* Build configuration list for PBXNativeTarget "YLIntroMVVMTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A9357C4D1D45BC3F00CF13E3 /* Debug */,
+				A9357C4E1D45BC3F00CF13E3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		A9357C4F1D45BC3F00CF13E3 /* Build configuration list for PBXNativeTarget "YLIntroMVVMUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A9357C501D45BC3F00CF13E3 /* Debug */,
+				A9357C511D45BC3F00CF13E3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = A9357C141D45BC3F00CF13E3 /* Project object */;
+}
