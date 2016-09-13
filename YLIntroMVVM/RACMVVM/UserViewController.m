@@ -86,12 +86,12 @@
     
     [self.firstButton addTarget:self.viewModel action:@selector(buttonAction:) forControlEvents:UIControlEventTouchUpInside];
     
-    [[[[self.firstButton rac_signalForControlEvents:UIControlEventTouchUpInside]
-       skip:0] take:1] subscribeNext:^(id x) {
-        @strongify(self);
-        self.firstTextField.enabled = NO;
-        self.nameLabel.hidden = YES;
-    }];
+//    [[[[self.firstButton rac_signalForControlEvents:UIControlEventTouchUpInside]
+//       skip:0] take:1] subscribeNext:^(id x) {
+//        @strongify(self);
+//        self.firstTextField.enabled = NO;
+//        self.nameLabel.hidden = YES;
+//    }];
     
     // stepper
     
@@ -105,6 +105,8 @@
     if (!_viewModel) {
         _viewModel = [UserViewModel new];
     }
+    
+    
     
     return _viewModel;
 }
